@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-layout-page',
@@ -9,7 +10,7 @@ import { Component } from '@angular/core';
 export class LayoutPageComponent {
   public sidebarItems = [
     { label: 'Listado', icon: 'label', url: './list' },
-    { label: 'Añadir', icon: 'add', url: './new-venta' },
-    { label: 'Buscar', icon: 'search', url: './search' },
+    { label: 'Carrito', icon: 'add', url: './new-venta' },
+    // { label: 'Buscar', icon: 'search', url: './search' },
   ]
 }
